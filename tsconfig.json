@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "incremental": true,
+    "sourceMap": true,
+    "lib": ["es5", "es6", "dom", "es7", "esnext", "dom.iterable"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "exclude": [
+    "chrome_dev",
+    "chrome_dist",
+    "firefox_dev",
+    "firefox_dist"
+  ]
+}
