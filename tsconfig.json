@@ -10,6 +10,7 @@
     "strict": true
   },
   "exclude": [
+    "dist",
     "chrome_dev",
     "chrome_dist",
     "firefox_dev",
