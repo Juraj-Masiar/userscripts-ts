@@ -52,9 +52,12 @@ module.exports = {
   },
   plugins: [
     new WebpackUserscript({
-      headers: {
-        version: dev ? `[version]-build.[buildNo]` : `[version]`
+      headers ({ version }) {
+        const buildTime = Date.now();
+        return {
+          version: `${version}-build.${buildTime}`
+        }
       }
-    })
+    }),
   ]
 };
