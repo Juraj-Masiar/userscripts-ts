@@ -6,6 +6,7 @@ module.exports = {
   mode: dev ? 'development' : 'production',
   entry: {
     facebook_chat_resize: path.resolve(__dirname, 'src', 'facebook_chat_resize', 'facebook_chat_resize.ts'),
+    playground: path.resolve(__dirname, 'src', 'playground', 'playground.ts'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

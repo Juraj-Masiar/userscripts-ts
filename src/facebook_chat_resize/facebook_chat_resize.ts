@@ -25,5 +25,5 @@ windowLoadedPromise.then(async () => {
                     })
             }
         })
-})
+});
 
